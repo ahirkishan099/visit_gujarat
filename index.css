@@ -1,244 +1,225 @@
 .navbar {
-    background-image: url('img_23.gif');
-    background-size: cover;
-    border-radius: 35px;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    margin: 0px 8px 0px -8px;
-    padding: 0px 0px 0px 0px ;
+  background-image: url("./html_css/img_23.gif");
+  background-size: cover;
+  border-radius: 35px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0px 8px 0px -8px;
+  padding: 0px 0px 0px 0px;
 }
 
 .navbar ul {
-   
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .navbar li {
-    display: inline-block; 
-    margin: 7px 15px; 
+  display: inline-block;
+  margin: 7px 15px;
 }
 
 .navbar li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .navbar li a:hover {
-    color: red;
+  color: red;
 }
 
-h5{
-    font-size: 700;
-    font-family: Arial, Helvetica, sans-serif;
+h5 {
+  font-size: 700;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .content {
-    display: none;
-    padding: 20px;
-    font-size: 600;
+  display: none;
+  padding: 20px;
+  font-size: 600;
 }
 
 .content:target {
-    display: block;
+  display: block;
 }
 
 .icon {
-    width: 200px;
-    float: auto;
-    height: 20px;
+  width: 200px;
+  float: auto;
+  height: 20px;
 }
 
 .logo {
-    color: rgb(193, 200, 0);
-    padding-left: 15px;
-    float: left;
-    padding: top 35px;
-
+  color: rgb(193, 200, 0);
+  padding-left: 15px;
+  float: left;
+  padding: top 35px;
 }
 
 body {
-    background-image:url("img_80.png");
-    background-size: contain;
-    
+  background-image: url("./html_css/img_80.png");
+  background-size: contain;
 }
 
 #Home {
-
-    border: 20px;
-    border-radius: 35px;
-    border-color: green;
-    margin: 100px;
-    
+  border: 20px;
+  border-radius: 35px;
+  border-color: green;
+  margin: 100px;
 }
 
 .login-container {
-    text-align: center;
-    max-width: 350px;
-    margin: 225px auto;
-    padding: 10px 21px 42px 21px;
-    background-image: url('img_81.jpg');
-    background-size: cover;
-    border-radius: 35px;
-    
-     
+  text-align: center;
+  max-width: 350px;
+  margin: 225px auto;
+  padding: 10px 21px 42px 21px;
+  background-image: url("./html_css/img_81.jpg");
+  background-size: cover;
+  border-radius: 35px;
 }
 
 #South_Gujarat {
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 100px;
-    color: blue;
-    text-overflow: unset;
-    margin: 100px;
-    padding:0px 30px 0px 30px;
-    border-radius: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 100px;
+  color: blue;
+  text-overflow: unset;
+  margin: 100px;
+  padding: 0px 30px 0px 30px;
+  border-radius: 30px;
 }
 
-
 #North_Gujarat {
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 100px;
-    color: blue;
-    text-overflow: unset;
-    margin: 100px;
-
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 100px;
+  color: blue;
+  text-overflow: unset;
+  margin: 100px;
 }
 
 #East_Gujarat {
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 100px;
-    color: blue;
-    text-overflow: unset;
-    margin: 100px;
-
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 100px;
+  color: blue;
+  text-overflow: unset;
+  margin: 100px;
 }
-#West_Gujarat{
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 100px;
-    color: blue;
-    text-overflow: unset;
-    margin: 100px;
+#West_Gujarat {
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 100px;
+  color: blue;
+  text-overflow: unset;
+  margin: 100px;
 }
 
 .login-container h2 {
-    text-align: center;
-   }
+  text-align: center;
+}
 
 .login-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .login-input {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 .login-button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .login-button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 footer {
-    color: white;
+  color: white;
 
-    border: none;
-    padding: 10px;
-    margin: 120px -8px 0px -8px;
-    border-radius: 25px;
-    background-image: url('img_23.gif');
-    background-size: cover;
-
-
+  border: none;
+  padding: 10px;
+  margin: 120px -8px 0px -8px;
+  border-radius: 25px;
+  background-image: url("./html_css/img_23.gif");
+  background-size: cover;
 }
-
 
 #button {
-    box-sizing: 20px;
-    color: black;
-    margin: 13px 41px 15px 22px;
-    padding: 3px 3px 3px 3px;
+  box-sizing: 20px;
+  color: black;
+  margin: 13px 41px 15px 22px;
+  padding: 3px 3px 3px 3px;
 }
-#main_title
-{
-    font-family:'Times New Roman';
-    font-weight:900;
-    text-align:center; 
-    text-transform:uppercase ;
-    color:black;
-    background-image:url('img_75.jpg');
-    background-size: cover;
-    border-radius: 30px;
-    margin: 61px 200px 75px 200px ;
-    padding: 8px 0px 8px 0px;
-    position:sticky;
-    top: 112px;
+#main_title {
+  font-family: "Times New Roman";
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  background-image: url("./html_css/img_75.jpg");
+  background-size: cover;
+  border-radius: 30px;
+  margin: 61px 200px 75px 200px;
+  padding: 8px 0px 8px 0px;
+  position: sticky;
+  top: 112px;
 }
-button{
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    padding: 2px 5px 2px 5px;
-    border-radius: 15px;
-
+button {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 2px 5px 2px 5px;
+  border-radius: 15px;
 }
 .submit-button {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 25px;
-  }
-  
-  .cancle-button {
-    background-color: rgb(255,0,0);
-    color: white;
-    border-radius: 25px;
-  }
-  
-  .submit-button:hover,
-  .cancle-button:hover {
-    color: blue;
-  }
-#ac
-{
-    color:white;
-    text-decoration: none;
-    font-size: medium;
-}
-h4{
-    font-size: larger;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 25px;
 }
 
+.cancle-button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 25px;
+}
 
-h1{
-    position: sticky;
-    top: 111px;
+.submit-button:hover,
+.cancle-button:hover {
+  color: blue;
 }
-p{
-    font-size: large;
-    color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+#ac {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
 }
-p:active{
-    background-color:black;
-    margin: 10px 10px 10px 10px;
-    border: #007bff;
-    border-radius: 25px;
+h4 {
+  font-size: larger;
 }
-border:2px solid 2px black
+
+h1 {
+  position: sticky;
+  top: 111px;
+}
+p {
+  font-size: large;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p:active {
+  background-color: black;
+  margin: 10px 10px 10px 10px;
+  border: #007bff;
+  border-radius: 25px;
+}
