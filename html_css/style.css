@@ -1,5 +1,5 @@
 .navbar {
-  background-image: url("html_css/img_23.gif");
+  background-image: url(" img_23.gif");
   background-size: cover;
   border-radius: 35px;
   position: fixed;
@@ -58,7 +58,7 @@ h5 {
 }
 
 body {
-  background-image: url("html_css/img_80.png");
+  background-image: url(" img_80.png");
   background-size: contain;
 }
 
@@ -74,7 +74,7 @@ body {
   max-width: 350px;
   margin: 225px auto;
   padding: 10px 21px 42px 21px;
-  background-image: url("html_css/img_81.jpg");
+  background-image: url(" img_81.jpg");
   background-size: cover;
   border-radius: 35px;
 }
@@ -152,7 +152,7 @@ footer {
   padding: 10px;
   margin: 120px -8px 0px -8px;
   border-radius: 25px;
-  background-image: url("html_css/img_23.gif");
+  background-image: url(" img_23.gif");
   background-size: cover;
 }
 
@@ -168,7 +168,7 @@ footer {
   text-align: center;
   text-transform: uppercase;
   color: black;
-  background-image: url("html_css/img_75.jpg");
+  background-image: url(" img_75.jpg");
   background-size: cover;
   border-radius: 30px;
   margin: 61px 200px 75px 200px;
